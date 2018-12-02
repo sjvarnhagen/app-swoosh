@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  Viewcontroller.swift
 //  app-swoosh
 //
 //  Created by Stanley Varnhagen on 2018-11-14.
@@ -8,18 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    
-/*    @IBOutlet weak var swoosh: UIImageView!
-    @IBOutlet weak var bgImg: UIImageView!
-    */
+class WelcomeVC: UIViewController {
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
 
     @IBAction func unwindToThisViewController(segue: UIStoryboardSegue) {
-        print("unwound")
+        
         }
 
 }
